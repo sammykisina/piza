@@ -1,0 +1,11 @@
+.moreThanFastButtonStyles {
+  @apply flex items-center gap-2 py-2 px-4 bg-[color:var(--pink)] rounded-full text-[color:var(--red)] ring-1 ring-[#fdecec] w-fit;
+}
+
+.watchTheVideoButtonStyles {
+  @apply text-center py-2 px-4  rounded-full  text-[color:var(--dark)] w-fit text-sm  flex flex-row items-center gap-3 text-shadow-md justify-center;
+}
+
+.interactiveLinkStyles {
+  @apply text-center py-2 px-4 bg-[color:var(--red)] rounded-full  text-[#f8fafb]/70 w-fit text-sm;
+}

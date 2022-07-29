@@ -1,0 +1,19 @@
+.headerContainer {
+  @apply flex justify-between items-center h-full z-[10] w-full px-6 max-w-[1100px];
+}
+
+.menu {
+  @apply flex items-center gap-4;
+}
+
+.rightSide {
+  @apply flex gap-4 justify-end;
+}
+
+.cart {
+  @apply relative flex cursor-pointer;
+}
+
+.badge {
+  @apply absolute flex bg-[color:var(--red)] h-5 w-5 rounded-full flex justify-center items-center text-[color:var(--white)] -right-3 -top-2 text-[14px];
+}
