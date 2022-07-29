@@ -8,7 +8,7 @@ const ItalianPizza = () => {
     <article className="bg-white rounded-lg px-2 py-1 border shadow-md flex flex-row gap-3 w-fit">
       {/* the image */}
       <div className="w-[90px] h-[90px] rounded-md border overflow-hidden relative">
-        <Image src={Pizza} alt="" objectFit="cover" layout="fill" />
+        <Image src={Pizza} alt="" objectFit="cover" layout="fill" priority />
       </div>
 
       {/* the name, price and rating */}

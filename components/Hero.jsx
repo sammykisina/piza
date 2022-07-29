@@ -20,7 +20,9 @@ const Hero = () => {
           {/* the more than fast button */}
           <Button
             buttonName="More than Faster"
-            buttonIcon={<Image src={Cherry} alt="" width={40} height={25} />}
+            buttonIcon={
+              <Image src={Cherry} alt="" width={40} height={25} priority />
+            }
             buttonStyles={heroCss.moreThanFastButtonStyles}
             buttonIconPosition="right"
             purpose={() => {}}
@@ -65,7 +67,7 @@ const Hero = () => {
         <div className="relative sm:mt-[100px]">
           {/* the image */}
           <div className=" sm:w-[230px] md:w-[360px] lg:w-[500px] ">
-            <Image src={HeroImage} alt="" layout="intrinsic" />
+            <Image src={HeroImage} alt="" layout="intrinsic" priority />
           </div>
 
           {/* the contact us button */}
