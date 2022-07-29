@@ -4,7 +4,7 @@ import { BiCart } from "react-icons/bi";
 import { topNavHeaderRoutes } from "../constants/topNavHeaderRoutes";
 import { TopNavHeaderLink, Logo, Icon } from "./";
 import { PizaYellowLogo } from "../assets";
-import { AiOutlineUser } from "react-icons/ai";
+import { AiFillHome, AiOutlineUser } from "react-icons/ai";
 
 const TopNavHeader = () => {
   /**
@@ -35,8 +35,16 @@ const TopNavHeader = () => {
     >
       <section className="mx-auto px-[24px] flex justify-between items-center h-full z-[10] w-full max-w-[1100px]">
         {/* The left side */}
-        <article className="flex gap-4 flex-1">
+        <article className="flex gap-4 flex-1 items-center">
           <Logo logo={PizaYellowLogo} />
+
+          {/* the home button */}
+          <div className="sm:hidden">
+            <TopNavHeaderLink
+              navigationLinkIcon={<AiFillHome />}
+              navigationLinkDestination="/"
+            />
+          </div>
 
           {/* The middle side */}
           <ul className={headerCss.menu}>

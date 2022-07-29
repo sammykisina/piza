@@ -6,8 +6,8 @@ const FooterInfoCard = ({ title, links }) => {
     <article>
       <Title
         title={title}
-        titleStyles="text-[color:var(--creamWhite)]"
-        lineStyles="bg-[color:var(--creamWhite)]"
+        titleStyles="text-[color:var(--dark)] text-lg"
+        // lineStyles="bg-[color:var(--red)]"
       />
 
       <ul className="px-4 text-sm text-[color:var(--dark)]">

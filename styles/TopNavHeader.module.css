@@ -3,7 +3,7 @@
 }
 
 .menu {
-  @apply flex items-center gap-4;
+  @apply items-center gap-4 hidden sm:flex;
 }
 
 .rightSide {

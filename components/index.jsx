@@ -8,6 +8,7 @@ export { default as Hero } from "./Hero";
 export { default as Menu } from "./Menu";
 export { default as HeroContactUsButton } from "./HeroContactUsButton";
 export { default as ItalianPizza } from "./ItalianPizza";
+export { default as Services } from "./Services";
 
 /**
  * ui-reusable-small-component imports
@@ -17,6 +18,7 @@ export { default as Logo } from "./ui-reusable-small-components/Logo";
 export { default as Title } from "./ui-reusable-small-components/Title";
 export { default as FooterInfoCard } from "./ui-reusable-small-components/FooterInfoCard";
 export { default as SectionContainer } from "./ui-reusable-small-components/SectionContainer";
+export { default as ServiceCard } from "./ui-reusable-small-components/ServiceCard";
 
 /**
  * ui-html-small-component

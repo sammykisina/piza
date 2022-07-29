@@ -62,14 +62,14 @@ const Hero = () => {
         </div>
 
         {/* the right side */}
-        <div className="relative">
+        <div className="relative sm:mt-[100px]">
           {/* the image */}
-          <div className=" sm:w-[230px] md:w-[360px] lg:w-[500px] lg:-mt-6 ">
+          <div className=" sm:w-[230px] md:w-[360px] lg:w-[500px] ">
             <Image src={HeroImage} alt="" layout="intrinsic" />
           </div>
 
           {/* the contact us button */}
-          <div className="absolute top-[165px] -left-[20px] sm:-left-[70px] md:top-[260px] md:-left-[40px] lg:-left-[80px] lg:top-[300px]">
+          <div className="absolute top-[165px] sm:top-[190px] -left-[20px] sm:-left-[70px] md:top-[260px] md:-left-[40px] lg:-left-[80px] lg:top-[300px]">
             <HeroContactUsButton />
           </div>
 

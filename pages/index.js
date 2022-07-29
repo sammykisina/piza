@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import { Layout, Hero, Menu, TopNavHeader, Footer } from "../components";
+import { Layout, Hero, Services } from "../components";
 
 const Home = () => {
   return (
@@ -17,8 +17,8 @@ const Home = () => {
         {/* the hero component */}
         <Hero />
 
-        {/* the menu component */}
-        <Menu />
+        {/* the services component */}
+        <Services />
       </main>
     </Layout>
   );
