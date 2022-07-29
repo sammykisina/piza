@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
 
             {/* media icons */}
-            <div className="flex justify-center items-center gap-3 mt-2 relative">
+            <div className="flex justify-center items-center gap-3 mt-2 relative ml-[200px] sm:ml-0">
               {socialMediaIcons.map((socialMediaIcon, socialMediaIndex) => (
                 <Icon
                   key={socialMediaIndex}
@@ -43,7 +43,7 @@ const Footer = () => {
                 />
               ))}
 
-              <div className="blob bg-[#f54748]/20 absolute z-0" />
+              <div className="blob bg-[#f54748]/20 absolute  z-0" />
             </div>
           </div>
 
